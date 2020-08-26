@@ -1,0 +1,15 @@
+img {
+    width: 100%;
+}
+.image-card {
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    padding: 10px;
+    background-color: rgb(179, 233, 255);
+    margin: 10px;
+    border: 1px solid black;
+    &:hover {
+        cursor: pointer;
+    }
+}
